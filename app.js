@@ -54,7 +54,7 @@ function generar() {
 }
 function condicionesIniciales() {
     insertTxt('h1', 'Juego del numero secreto');
-    insertTxt(`.texto__parrafo','indica un numero del 1 al ${numMax}`);
+    insertTxt('.texto__parrafo',`indica un numero del 1 al ${numMax}`);
     numSecret = generar();
     intentos = 1;
 }
